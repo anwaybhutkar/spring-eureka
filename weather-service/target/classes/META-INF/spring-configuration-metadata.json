@@ -1,0 +1,24 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.mseureka.poc.weatherservice.config.OpenWeatherMapProperties",
+      "name": "openweathermap.api",
+      "type": "com.mseureka.poc.weatherservice.config.OpenWeatherMapProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.mseureka.poc.weatherservice.config.OpenWeatherMapProperties",
+      "name": "openweathermap.api.key",
+      "description": "A description for 'openweathermap.api.key'",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mseureka.poc.weatherservice.config.OpenWeatherMapProperties",
+      "name": "openweathermap.api.url",
+      "description": "A description for 'openweathermap.api.url'",
+      "type": "java.lang.String"
+    }
+  ]
+}

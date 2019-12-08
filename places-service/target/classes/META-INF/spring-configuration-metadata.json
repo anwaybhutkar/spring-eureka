@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.mseureka.poc.placesservice.config.WeatherServiceProperties",
+      "name": "weather.service",
+      "type": "com.mseureka.poc.placesservice.config.WeatherServiceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.mseureka.poc.placesservice.config.WeatherServiceProperties",
+      "name": "weather.service.url",
+      "description": "A description for 'weather.service.url'",
+      "type": "java.lang.String"
+    }
+  ]
+}

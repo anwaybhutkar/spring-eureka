@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: eureka-service
+
+server:
+  port: 8070
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    service-url:
+      defaultZone: http://localhost:8070/eureka
+
+zuul:
+  #Service will be mapped under the /api URI
+  prefix: /api
+  routes:
+    weather-service:
+      path: /weather-service/**
+      url: http://localhost:8072
+    places-service:
+      path: /places-service/**
+      url: http://localhost:8071
