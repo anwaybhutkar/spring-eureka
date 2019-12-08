@@ -18,6 +18,7 @@
 *.zip
 *.tar.gz
 *.rar
+*.plugins
 
 # Build and workspace
 targer/
